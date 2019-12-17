@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#top-one{
+    height: 8vh;
+    background-color: rgb(144, 252, 141);
+}
+
+#bottom-one{
+    height: 8vh;
+    background-color: rgb(248, 226, 167);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+#banner{
+    height: 20vh;
+background-color: rgb(213, 152, 248);
+}
+
+.lines{
+    position: relative;
+    width:100% ;
+    margin: 0 auto;
+    margin-left: 40%;
+    transform: translateX(-50%);
+    /* border: 2px solid black; */
+}
+
+.lines:before,
+.lines:after
+{
+    position: absolute;
+    content: "";
+    border: 1px solid red;
+    top: 50%;
+    width: 100%;
+}
+
+.lines:before{
+    left: -110%;
+
+}
+
+.card{
+    height: 50vh;
+    width: 90%;
+    background-color: yellow;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.last{
+    padding-bottom: 8vh;
+    width: 80%;
+    margin: auto;
+}
